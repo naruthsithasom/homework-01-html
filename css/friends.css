@@ -1,0 +1,70 @@
+@font-face{
+    font-family: Dean-font;
+    src:url('../font/Chakra/ChakraPetch-Light.ttf')
+}
+body{
+    margin: 0px;
+    font-family:Dean-font;
+}
+a:visited{
+    color: #ffffff;
+}
+a:link{
+    text-decoration: none;
+}
+a:active{
+    color: #333333;
+}
+a:hover{
+    color: lemonchiffon;
+    opacity: 0.6;
+    transition: 0.5s;
+}
+.nav{
+    display: flex;
+    position: fixed;
+
+height: 40px;
+width: 100vw;
+color: floralwhite;
+background-color: gray;
+text-align: center;
+}
+.nav-bar{
+   margin-top: 10PX;
+   margin-left: 10px;
+    padding: 0 20px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: #355c7d; */
+    justify-content: space-evenly;
+}
+.container > div{
+    background-color: #ffffff; 
+    height: 400px;
+    width: 300px;
+    margin:50px;
+    text-align: center;
+    margin-top: 50px;
+    border: 1px solid #cccccc;
+}
+
+/* .item1 > .img-friends{
+    height: 400px;
+    background-image:url('/photo/person.png');
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+div > .img-friends{
+    /* position: relative;
+    top:20%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}

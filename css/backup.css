@@ -1,0 +1,88 @@
+@font-face{
+    font-family: DeanFont;
+    src: url('../font/Chakra/ChakraPetch-Regular.ttf')
+}
+body{
+    margin: 0;
+    font-family: DeanFont;
+    font-size: 16px;
+}
+.wrap{
+    display:flex;
+    flex-direction: column;  
+}
+.wrap > div {
+    /* background-color: blue; */
+    /* text-align: center; */
+    /* margin: 1px; */
+    height: 100vh;
+    color: #ffffff;
+}
+.wrap > .flex-1{
+    background-color: #355c7d;
+    /* background-color: #2a363b; */
+    width: 20vw;
+    /* height: 100vh; */
+    position: fixed;
+}
+
+.wrap > .flex-2{
+    /* text-align: center; */
+    background-color: #6c5b7b;
+    /* background-color: #e8415f; */
+    /* margin-left: 350px; */
+    margin-left: 20vw;
+}
+
+.flex2-1{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.flex2-1 > .img1{
+ /* height: auto;
+ width: 400px;
+     background-image: url('./photo/photo7.jpg');
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(3px);
+    height: 100%;
+    width: 80vw;
+    position: absolute;  */
+    /* z-index: 1; */
+}
+
+
+
+.wrap > .flex-3{
+    background-color: #c06c84;
+    /* background-color: #ffb47c; */
+        /* height: 100vw; */
+    margin-left: 350px;
+}
+.wrap > .flex-4{
+    background-color: #f67280;
+    /* background-color: #fecea8; */
+        /* height: 100vw; */
+    margin-left: 350px;
+}
+.wrap > .flex-5{
+       background-color: #f8b195;
+    /* background-color: #99b898; */
+ 
+        /* height: 100vw; */
+    margin-left: 350px;
+
+}
+.photo-profile{  
+    /* position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    margin-top: 20px;
+    border: solid 5px #ffffff;
+    border-radius: 50%;
+
+ }

@@ -1,0 +1,150 @@
+@font-face{
+    font-family: DeanFont;
+    src: url('../font/Chakra/ChakraPetch-Light.ttf')
+}
+body{
+    margin: 0;
+    font-family: DeanFont;
+  
+}
+/* .container{
+    display: flex;
+    flex-wrap: wrap;   
+}
+.container > .item1 {
+    background-color: darkviolet;
+    width: 100vw;
+    height: 50vh;
+    text-align: center;
+}
+.item1 > .header{
+
+    color: #ffffff;
+    font-size: 20em;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ } 
+.container > .item2 {
+    background-color: #ffe338;
+    width: 100vw;
+    height: 50vh;
+
+}
+.nav{
+ 
+    display: flex;
+    flex-direction: row;
+     position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4vw; 
+ 
+ } 
+
+ .photo-profile{  
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    border: solid 5px #ffffff;
+    border-radius: 50%;
+
+ }
+ .nav-space{
+    margin: 0 20px;
+ }
+a:visited{
+     color:blue;
+ }
+a:link {
+    text-decoration: none;
+}
+a:hover{
+    color: darkmagenta;
+    font-size: 6vw;
+    opacity: 0.6;
+    transition: 0.5s;
+} */
+/*--------------------------------*/
+.container {
+    display: flex;
+  
+}
+
+.container > div {
+    width : 400px;
+    height: 500px;
+    /* background-color: lightblue; */
+    margin:10px;
+ 
+}
+/* .container > .box1{
+    position: absolute;
+    position: fixed;
+    width: 100vw;
+    height: 80px;
+    background-color: lightcoral;
+    margin: 0;
+
+} */
+.nav{
+    display: block;
+    position: absolute;
+    position: fixed;
+    background-color: chartreuse;
+    width: 100vw;
+    text-align: center;
+}
+.nav > .box1-1{
+    display: block;
+}
+.box1-1 > .nav-icon{
+    display: inline-block;
+    margin: 5px 10px;
+   
+    width: 80px;
+}
+
+.box1-2 > .nav-text{
+    display: inline-block;
+}
+.box1-2 > .nav-text{
+    margin: 5px 10px;
+    width: 80px;
+}
+
+.container > .box2{
+    margin-top:80px;
+    width:20vw;
+    background-color: #ffffff;
+}
+.container > .box3{
+    margin-top:80px;
+    width:60vw;;
+    height: 100vh;
+}
+
+.box3-1{
+    margin-top: 50px;
+    /* border:1px solid #333333; */
+    height: 400px;
+    text-align: center;
+}
+.box3-1 > .img-profile{
+    border-radius: 50%;
+    border:5px solid #ffffff;
+    margin: 20px 20px 10px 20px;
+}
+.box3-1 > .text-about{
+    text-align: left;
+}
+.container > .box4{
+    margin-top:80px;
+    width:20vw;
+    background-color: #ffffff;
+}
