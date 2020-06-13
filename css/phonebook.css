@@ -1,0 +1,65 @@
+@font-face{
+  font-family: Dean-font;
+  src:url('../font/Chakra/ChakraPetch-Light.ttf');
+}
+body{
+  font-family: Dean-font;
+  margin: 0;
+}
+@media screen and (min-width:512px){
+  .wrap{
+    display: flex;
+    justify-content: center;
+    color:blue;
+    width: 100vw;
+    margin-top: 24px;
+  }
+table{
+    border-collapse: collapse;
+    width:840px;
+}
+table,th,td{
+  text-align: left;
+  /* width: 100vw; */
+  border:gray 2px dotted;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px;
+}
+th{
+  font-size: larger;
+  font-weight: bolder;
+}
+a{
+  color: blue;
+}
+}
+@media screen and (max-width:512px){
+  .wrap{
+    display: flex;
+    justify-content: center;
+    color: darkred;
+    width: 100vw;
+    margin-top: 24px;
+  }
+table {
+    border-collapse: collapse;
+    width:100vw;
+
+}
+table,th,td{
+  text-align: left;
+  /* width: 100vw; */
+  border:gray 2px dotted;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px;
+}
+th{
+  font-size: larger;
+  font-weight: bolder;
+}
+a{
+  color: darkred;
+}
+}
