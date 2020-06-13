@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Booking</title>
+  <link rel="stylesheet" href="css/booking.css">
+</head>
+
+<body>
+  <div class='wrap'>
+  <form action='/index'>
+    <table>
+      <thead>
+        <tr>
+          <th colspan="2">Flying from</th>
+          <th colspan="2">To</th>
+          
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td colspan="2">
+            <select class="w-160"name="flying" id='flying'>
+              <option value="suvarnabhumi airport">suvarnabhumi airport</option>
+              <option value="Bangkok">Bangkok</option>
+              <option value="Chiang Mai">Chiang Mai</option>
+              <option value="Phuket">Phuket</option>
+            </select>
+          </td>
+          <td colspan="2">
+            <select name="to" id="to" class="w-160">
+              <option value="Japan">Japan</option>
+              <option value="Korea">Korea</option>
+              <option value="China">China</option>
+              <option value="England">England</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">Departing</td>
+          <td colspan="2">Returning</td>
+        </tr>
+        <tr>
+          <td colspan="2"><input class="w-160 bg-date" type="date"</td>
+          <td colspan="2"><input class="w-160" type="date"></td>
+        </tr>
+        <tr>
+        <td>Adult</td>
+        <td>Child</td>
+        <td>Infant</td>
+        <td style="color:orangered;">Current</td>
+      </tr>
+      <tr>
+        <td><input class="w-80"type="number" placeholder="1" name="adult" ></td>
+        <td><input class="w-80"type="number" placeholder="0" name="child" ></td>
+        <td><input class="w-80"type="number" placeholder="0" name="infant"></td>
+        <td>
+          <select class="w-80" name="current" id="current">
+           <option value="PKR" class="w-80">PKR</option>
+            <option value="BTH">BTH</option>
+            <option value="USD">USD</option>
+           <option value="YEN">YEN</option>
+          </select>
+        </td>
+      </tr> 
+      </tbody>
+    </table>
+    <input type="submit" value="Search" class="btn-search">
+  </form>
+</div>
+</body>
+
+</html>
