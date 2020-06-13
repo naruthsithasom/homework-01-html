@@ -6,6 +6,7 @@ body{
     margin: 0px;
     font-family:Dean-font;
 }
+/*
 a:visited{
     color: #ffffff;
 }
@@ -20,7 +21,7 @@ a:hover{
     opacity: 0.6;
     transition: 0.5s;
 }
-.nav{
+ .nav{
     display: flex;
     position: fixed;
 
@@ -34,12 +35,13 @@ text-align: center;
    margin-top: 10PX;
    margin-left: 10px;
     padding: 0 20px;
-}
+} */
 .container{
     display: flex;
     flex-wrap: wrap;
     /* background-color: #355c7d; */
     justify-content: space-evenly;
+    padding-top: 140px;
 }
 .container > div{
     background-color: #ffffff; 
@@ -47,7 +49,7 @@ text-align: center;
     width: 300px;
     margin:50px;
     text-align: center;
-    margin-top: 50px;
+    
     border: 1px solid #cccccc;
 }
 

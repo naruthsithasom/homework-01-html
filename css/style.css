@@ -98,7 +98,7 @@ a:hover{
     position: fixed;
     background-color: chartreuse;
     width: 100vw;
-    height: 90px;
+    height: 100px;
     text-align: center;
 }
 .nav > .box1-1{
@@ -107,8 +107,8 @@ a:hover{
 .box1-1 > .nav-icon{
     display: inline-block;
     margin: 5px 10px;
-   
     width: 80px;
+    padding: 5px 0;
 }
 
 .box1-2 > .nav-text{
