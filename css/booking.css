@@ -4,13 +4,16 @@
 }
 body{
   font-family:Dean-font;
-  margin-top: 200px;
   font-weight: bolder
 }
-.wrap{
+.wrap-booking{
   display: flex;
   justify-content: center;
   height: 100vh;
+}
+.bg-form{
+  /* background-color: whitesmoke; */
+  padding-top: 140px;
 }
 table{
     text-align: left;

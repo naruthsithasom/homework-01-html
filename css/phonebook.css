@@ -12,7 +12,7 @@ body{
     justify-content: center;
     color:blue;
     width: 100vw;
-    margin-top: 24px;
+    padding-top: 140px;
   }
 table{
     border-collapse: collapse;
@@ -40,7 +40,7 @@ a{
     justify-content: center;
     color: darkred;
     width: 100vw;
-    margin-top: 24px;
+    padding-top: 140px;
   }
 table {
     border-collapse: collapse;
