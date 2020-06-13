@@ -4,12 +4,13 @@
 }
 body{
   font-family:Dean-font;
-  font-weight: bolder
+
 }
 .wrap-booking{
   display: flex;
   justify-content: center;
   height: 100vh;
+  font-weight: bolder
 }
 .bg-form{
   /* background-color: whitesmoke; */
