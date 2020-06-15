@@ -6,44 +6,15 @@ body{
     margin: 0px;
     font-family:Dean-font;
 }
-/*
-a:visited{
-    color: #ffffff;
-}
-a:link{
-    text-decoration: none;
-}
-a:active{
-    color: #333333;
-}
-a:hover{
-    color: lemonchiffon;
-    opacity: 0.6;
-    transition: 0.5s;
-}
- .nav{
-    display: flex;
-    position: fixed;
-
-height: 40px;
-width: 100vw;
-color: floralwhite;
-background-color: gray;
-text-align: center;
-}
-.nav-bar{
-   margin-top: 10PX;
-   margin-left: 10px;
-    padding: 0 20px;
-} */
-.container{
+ 
+.wrap-friends{
     display: flex;
     flex-wrap: wrap;
     /* background-color: #355c7d; */
     justify-content: space-evenly;
     padding-top: 140px;
 }
-.container > div{
+.wrap-friends > div{
     background-color: #ffffff; 
     height: 400px;
     width: 300px;

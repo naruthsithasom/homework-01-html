@@ -5,93 +5,27 @@
 body{
     margin: 0;
     font-family: DeanFont;
-  
 }
-/* .container{
-    display: flex;
-    flex-wrap: wrap;   
-}
-.container > .item1 {
-    background-color: darkviolet;
-    width: 100vw;
-    height: 50vh;
+@media screen and (min-width:750px){
+
+.txt-center{
     text-align: center;
 }
-.item1 > .header{
-
-    color: #ffffff;
-    font-size: 20em;
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
- } 
-.container > .item2 {
-    background-color: #ffe338;
-    width: 100vw;
-    height: 50vh;
-
+.txt-left{
+    text-align: left;
 }
-.nav{
- 
-    display: flex;
-    flex-direction: row;
-     position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 4vw; 
- 
- } 
-
- .photo-profile{  
-    position: absolute;
-    z-index: 1;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    
-    border: solid 5px #ffffff;
-    border-radius: 50%;
-
- }
- .nav-space{
-    margin: 0 20px;
- }
-a:visited{
-     color:blue;
- }
-a:link {
-    text-decoration: none;
-}
-a:hover{
-    color: darkmagenta;
-    font-size: 6vw;
-    opacity: 0.6;
-    transition: 0.5s;
-} */
-/*--------------------------------*/
 .container {
     display: flex;
+    position: relative;
+    top: 100px;
   
 }
 
 .container > div {
     width : 400px;
     height: 500px;
-    /* background-color: lightblue; */
-    margin:10px;
- 
 }
-/* .container > .box1{
-    position: absolute;
-    position: fixed;
-    width: 100vw;
-    height: 80px;
-    background-color: lightcoral;
-    margin: 0;
 
-} */
 .nav{
     display: block;
     position: absolute;
@@ -100,52 +34,198 @@ a:hover{
     width: 100vw;
     height: 100px;
     text-align: center;
+    z-index: 1;
 }
 .nav > .box1-1{
     display: block;
+    height: 50px;
+ 
 }
 .box1-1 > .nav-icon{
     display: inline-block;
-    margin: 5px 10px;
+    margin: 15px 10px;
     width: 80px;
-    padding: 5px 0;
+ 
 }
-
+.nav > .box1-2{
+    display: block;
+    height: 50px;
+ 
+}
 .box1-2 > .nav-text{
     display: inline-block;
-}
-.box1-2 > .nav-text{
     margin: 5px 10px;
     width: 80px;
 }
-
+/* -------------------------------------------- */
 .container > .box2{
-    margin-top:80px;
     width:20vw;
     background-color: #ffffff;
 }
 .container > .box3{
-    margin-top:80px;
     width:60vw;;
     height: 100vh;
 }
 
 .box3-1{
-    margin-top: 50px;
-    /* border:1px solid #333333; */
     height: 400px;
-    text-align: center;
+    padding: 40px 40px 0 40px;
 }
-.box3-1 > .img-profile{
+.img-profile{
     border-radius: 50%;
-    border:5px solid #ffffff;
+    border:10px solid chartreuse;
     margin: 20px 20px 10px 20px;
 }
-.box3-1 > .text-about{
-    text-align: left;
+ .img-gallery{
+    border:10px solid chartreuse;
+
+}
+.img-profile:hover{
+    opacity: 0.8;
+    transition: .5s ease;
+}
+.img-gallery:hover{
+    opacity: 0.8;
+    transition: .5s ease-in;
 }
 .container > .box4{
-    margin-top:80px;
     width:20vw;
     background-color: #ffffff;
+}
+/***********Bookink pageVVVVV****/
+.wrap-booking{
+    display: flex;
+    justify-content: center;
+    font-weight: bolder
+  }
+  .bg-form{
+    padding: 10px;
+  }
+  .w-160{
+    width: 160px;
+    opacity: 0.5;
+  }
+  .bg-date{
+    background-color: gainsboro;
+  }
+  .w-80{
+    width: 80px;
+  }
+  .btn-search{
+    background-color: orangered;
+    color: white;
+    border: 1px solid orangered;
+    border-radius: 4px;
+    width: 80px;
+    height: 40px;
+    margin-top: 20px;
+  }
+/***************/
+/**************Phone Book ****************/
+.wrap-phonebook{
+    display: flex;
+    justify-content: center;
+  }
+.table-tel{
+    border-collapse: collapse;
+     width:100%;
+     color: red; 
+}
+.table-tel, .th-tel, .td-tel{
+  text-align: left;
+  border:gray 2px dotted;
+  padding: 10px;
+}
+.th-tel{
+  font-size: larger;
+  font-weight: bolder;
+}
+.a-tel{
+    color: red;
+}
+}
+/* ----------------------------------------------------- */
+.wrap-friends{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: relative;
+    top:140px;
+}
+.wrap-friends > div{
+    background-color: #ffffff; 
+    height: 400px;
+    width: 300px;
+    margin:10px;
+    padding: 10px;
+    text-align: center;
+    /* border: 1px solid #cccccc; */
+    border: 1px solid chartreuse;
+}
+@media screen and (max-width:749px){
+    .nav{
+        display: flex;
+        position: absolute;
+        background-color: chartreuse;
+        width: 100vw;
+        height: 200px;
+
+    }
+    .nav > .box1-1 {
+        height: 200px;
+        margin-left: 20px;
+        margin-right: 10px;
+        width: 50%;
+    }
+    .box1-1 > div{
+        height: 40px;
+        text-align: right;
+    }
+    .nav > .box1-2 {
+        height: 200px;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 50%;
+    }
+    .box1-2 > div{
+        height: 40px;
+    }
+    .nav-text > a{
+        padding: 10px;
+    }
+    .container-mobile{
+        position: relative;
+        top:200px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-top: 10px;
+    }
+    .table-tel{
+        border-collapse: collapse;
+         width:100%;
+         color: red; 
+    }
+    .table-tel, .th-tel, .td-tel{
+      text-align: left;
+      /* width: 100vw; */
+      border:gray 2px dotted;
+      /* margin-left: 20px;
+      margin-right: 20px; */
+      padding: 10px;
+    }
+    .th-tel{
+      font-size: larger;
+      font-weight: bolder;
+    }
+    .a-tel{
+        color: red;
+    }
+    .img-profile{
+        width: 100%;
+        height: auto;
+    }
+    .img-gallery{
+        width: 100%;
+        height: 320px;
+    }
 }
