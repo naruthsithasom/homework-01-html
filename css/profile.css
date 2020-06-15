@@ -6,7 +6,7 @@ body{
     font-family: Dean-font;
     margin: 0px;
 }
-@media screen and (min-width:550px){
+@media screen and (min-width:790px){
 p{
     margin: 0;
 }
@@ -53,7 +53,7 @@ a{
     left:50%;
     z-index: 2;
     transform: translate(-50%, -50%);
-    width: 50%;
+    width: 80%;
     padding: 20px;
     text-align: center;
     font-size: 12px;
@@ -78,4 +78,44 @@ a{
     width: 80vw;
     padding: 0 50px;
 }
+
+}/* @media screen and (min-width:790)*/
+
+@media screen and (max-width:789px){
+    .cover-mobile{
+        background-image: url('../photo/photo8.jpg');
+        background-repeat: repeat;
+        background-position: center;
+        position: fixed;
+        top:0;
+        left: 0;
+        min-width:100%;
+        min-height: 100%;
+        filter: blur(5px);
+    }
+    .box-text{
+        position: absolute;
+        /* border: 2px solid #ffffff; */
+        margin: 10px;
+        padding-top: 20px;
+    }
+    .item1{
+        text-align: center;
+    }
+    .item1 > .img-profile{
+        border: 2px solid #ffffff;
+    }
+    a{
+        color: #ffffff;
+    }
+    a:link{
+        text-decoration: none;
+    }
+    .item2{
+        margin-top: 50px;
+        color:#ffffff;
+    }
+    .txt-center{
+        text-align: center;
+    }
 }

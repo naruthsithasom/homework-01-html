@@ -221,11 +221,45 @@ body{
         color: red;
     }
     .img-profile{
-        width: 100%;
+        width: 95%;
         height: auto;
+        border: 2px solid chartreuse;
+        padding: 10px;
     }
     .img-gallery{
-        width: 100%;
+        width: 95%;
         height: 320px;
+        border: 2px solid chartreuse;
+        padding: 10px;
+
     }
-}
+    /***********Bookink pageVVVVV****/
+.wrap-booking{
+    display: flex;
+    justify-content: center;
+    font-weight: bolder
+  }
+  .bg-form{
+    padding: 10px;
+  }
+  .w-160{
+    width: 160px;
+    opacity: 0.5;
+  }
+  .bg-date{
+    background-color: gainsboro;
+  }
+  .w-80{
+    width: 80px;
+  }
+  .btn-search{
+    background-color: orangered;
+    color: white;
+    border: 1px solid orangered;
+    border-radius: 4px;
+    width: 80px;
+    height: 40px;
+    margin-top: 20px;
+  }
+/***************/
+}/*End @media screen and (min-width:749)*/

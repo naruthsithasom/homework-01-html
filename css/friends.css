@@ -23,14 +23,6 @@ body{
     
     border: 1px solid #cccccc;
 }
-
-/* .item1 > .img-friends{
-    height: 400px;
-    background-image:url('/photo/person.png');
-    background-size: 200px 200px;
-    background-repeat: no-repeat;
-    background-position: center;
-} */
 div > .img-friends{
     /* position: relative;
     top:20%;
